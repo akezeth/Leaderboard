@@ -14,3 +14,9 @@ submitButton.addEventListener('click', (e) => {
   addGameScore();
   displayScores();
 });
+
+// event listener for refresh button
+const refreshBtn = document.getElementById('btnRefresh');
+refreshBtn.addEventListener('click', () => {
+  displayScores();
+});
