@@ -9,20 +9,24 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
+  color: #a1c531;
   padding: 1em;
-  background-color: #fff;
+  background-color: #120e0ecc;
 }
 
 .container {
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
-  border: 2px solid rgb(147, 160, 134);
-  border-radius: 1em;
-  padding: 3em;
+  padding: 2em;
+  padding-top: 1em;
+  background-color: #3b3b3b;
 }
 
 .title {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 2em;
+  color:#d3d03c;
 }
 
 .details {
@@ -34,13 +38,22 @@ body {
 .recentScore {
   display: flex;
   justify-content: space-between;
-  margin-block: 1em;
+  margin-bottom: 0.7em;
+  color: #d3d03c;
+  font-size: 1.25em;
+  align-items: center;
+}
+
+.recentScore button:hover {
+  transform: scale(1.03);
 }
 
 .addScore {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  color: #d3d03c;
+  font-size: 1.25em;
 }
 
 form {
@@ -49,9 +62,20 @@ form {
   gap: 1em;
 }
 
-button,
 input[type="text"] {
   padding: 0.5em 1em;
+  border: 0.3px solid #277353;
+  border-radius: 0.3em;
+}
+
+button {
+  padding: 0.5em 1em;
+  color: #d3d03c;
+  font-weight: 600;
+  background-color: #277353;
+  border-color: #277353;
+  border-radius: 0.3em;
+  cursor: pointer;
 }
 
 #btnAddScore {
@@ -59,8 +83,14 @@ input[type="text"] {
 }
 
 #scoreList {
-  border: 1px solid rgb(147, 160, 134);
   padding: 1em 2em;
   gap: 2em;
-  border-radius: 0.5em;
+  background-color: #3f3f3f;
+  color: #c6ce36;
+}
+
+#scoreList li {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.2em;
 }

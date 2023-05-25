@@ -11,7 +11,7 @@ export const displayScores = async () => {
   scoresList.innerHTML = '';
   scores.forEach((score) => {
     const li = document.createElement('li');
-    li.textContent = `${score.user}: ${score.score}`;
+    li.textContent = `${score.user} : ${score.score}`;
     scoresList.appendChild(li);
   });
 };
