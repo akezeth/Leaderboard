@@ -26,7 +26,7 @@ body {
   margin-bottom: 1em;
   text-align: center;
   font-size: 2em;
-  color:#d3d03c;
+  color: #d3d03c;
 }
 
 .details {
@@ -42,6 +42,16 @@ body {
   color: #d3d03c;
   font-size: 1.25em;
   align-items: center;
+}
+
+button {
+  padding: 0.5em 1em;
+  color: #d3d03c;
+  font-weight: 600;
+  background-color: #277353;
+  border-color: #277353;
+  border-radius: 0.3em;
+  cursor: pointer;
 }
 
 .recentScore button:hover {
@@ -66,16 +76,6 @@ input[type="text"] {
   padding: 0.5em 1em;
   border: 0.3px solid #277353;
   border-radius: 0.3em;
-}
-
-button {
-  padding: 0.5em 1em;
-  color: #d3d03c;
-  font-weight: 600;
-  background-color: #277353;
-  border-color: #277353;
-  border-radius: 0.3em;
-  cursor: pointer;
 }
 
 #btnAddScore {
